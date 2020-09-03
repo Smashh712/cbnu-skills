@@ -4,99 +4,112 @@ export const A2 = {
 		{
 			skills: [
 				{
-					name: "거주",
+					name: "인간관계",
 					description: {
-						text: "어디서 살 지 결정하는 것은 중요합니다.",
+						text: "다른 사람과 소통하고 대화하면서 인간 관계를 유지하는 방법을 배워봅시다",
 						links: [
-							["자취 vs 하숙 vs 기숙", "http://www.lgchallengers.com/campus/trend/20110915up/"]
+							[""]
 						]
 					},
 					skills: [
 						{
-							name: "자취방",
+							name: "친구",
 							description: {
-								text: "혼자서 살기 위해 좋은 방을 구하는 방법을 알아봅시다.",
+								text: "친구와의 관계를 유지하는 법을 알아봅시다.",
 								links: [
-									["npmjs - About npm", "https://www.zigbang.com/"],
-									["npmjs - Getting started", "https://www.peterpanz.com/"],
-									["Introduction to npm and basic npm commands", "http://honjaguide.com/recommend"],
-									["An Absolute Beginner's Guide to Using npm", "https://blog.toss.im/2020/03/12/money/life/kimtoss-rentroom/"],
+									["대학 인간관계, 대학친구", "https://m.blog.naver.com/PostView.nhn?blogId=ruru9916&logNo=221428001562&proxyReferer=https:%2F%2Fwww.google.com%2F"],
+									["인간관계? 어떻게 해야할까", "https://univ20.com/97684"],
+
 								]
 							},
 						},
 						{
-							name: "기숙사",
-							description: {
-								text: "저렴한 가격으로 안전한 기숙사에서 생활하는 법을 알아봅시다.",
+							name: "교수",
+						description: {
+								text: "교수님과 적절한 관계를 유지하는 주의사항을 알아봅시다.",
 								links: [
-									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
-									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],
+									["교수님께 연락하거나, 약속잡는 방법의 정석", "https://m.blog.naver.com/PostView.nhn?blogId=ajh257&logNo=50179697808&proxyReferer=https:%2F%2Fwww.google.com%2F"],
+									["백전백승 교수님께 메일 보내는 법", "https://univ20.com/79636"],
 								]
 							},
 						},
 						{
-							name: "하숙",
+							name: "선후배",
 							description: {
-								text: "때로는 누군가가 관리하는 집에서 하숙하는 것도 나쁘지 않습니다. 하숙에 대해 알아봅시다.",
+								text: "좋은 선 후배 관계를 통해 많은 것을 얻을 수 있도록 합시다.",
 								links: [
-									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
-									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],
+									["후회 없는 대학생활을 꾸려가는 법 10", "https://m.post.naver.com/viewer/postView.nhn?volumeNo=11590572&memberNo=15460571&vType=VERTICAL"],
+									["대학교생활, 이렇게 하면 후회는 없다!", "https://m.post.naver.com/viewer/postView.nhn?volumeNo=23851276&memberNo=39138107&searchKeyword=%EB%8C%80%ED%95%99%EA%B5%90%20%EC%83%9D%ED%99%9C&searchRank=4"],
+									["충북대 공식 블로그","https://blog.naver.com/cbnu_eca"]
 								]
 							},
 						}
 					]
 				},
 				{
-					name: "Module Bundlers",
+					name: "강의&과제",
 					description: {
-						text: "Learn about module bundler and how they can help bundling your code.",
+						text: "좋은 학점을 따고, 효율적으로 배우는 방법이 있습니다.",
 						links: [
-							["dev.to - What is a module bundler?", "https://dev.to/tanhauhau/what-is-module-bundler-and-how-does-it-work-3gp2"],
-							["Freecodecamp - Let’s learn how module bundlers work", "https://www.freecodecamp.org/news/lets-learn-how-module-bundlers-work-and-then-write-one-ourselves-b2e3fe6c88ae/"],
-							["JavaScript Bundlers, a Comparison", "https://medium.com/@ajmeyghani/javascript-bundlers-a-comparison-e63f01f2a364"],
 						]
 					},
 					skills: [
 						{
-							name: "Rollup",
+							name: "강의 수강",
 							description: {
-								text: "Learn how you can use Rollup to bundle your code.",
+								text: "대학교에 와서 강의를 들으며 올바르게 학습하는 팁을 알아봅시다.",
 								links: [
-									["Rollup - Introduction", "https://rollupjs.org/guide/en/"],
-									["How to Bundle JavaScript With Rollup", "https://lengstorf.com/learn-rollup-js/"],
+									["대학에서의 공부방법", "http://apmath.kku.edu/~seokko/syllabus/study.htm"],
+									["대학교 성적/학점 관리 방법 10가지!", "https://m.blog.naver.com/PostView.nhn?blogId=ocublog&logNo=221262830078&proxyReferer=https:%2F%2Fwww.google.com%2F"],
+									["성공적인 대학생활을 위한 학습 전략","https://m.blog.naver.com/PostView.nhn?blogId=boram_s&logNo=80150199981&proxyReferer=https:%2F%2Fwww.google.com%2F"]
 								]
 							},
 						},
 						{
-							name: "Webpack",
+							name: "과제",
 							description: {
-								text: "Learn how you can use Webpack to bundle your code.",
+								text: "과제를 효율적으로 수행하고, 좋은 결과물을 만들기 위한 방법을 알아봅시다.",
 								links: [
-									["Webpack - Getting Started", "https://webpack.js.org/guides/getting-started/"],
-									["Webpack: A Gentle Introduction to the Module Bundler", "https://auth0.com/blog/webpack-a-gentle-introduction/"],
+									["대학과제 꿀팁", "https://1boon.kakao.com/p/tag/%EB%8C%80%ED%95%99%EA%B3%BC%EC%A0%9C%EA%BF%80%ED%8C%81"],
+									["새내기를 위한 대학 과제 정보 모음", "https://m.post.naver.com/viewer/postView.nhn?volumeNo=18500740&memberNo=34920570&searchKeyword=%EC%83%88%EB%82%B4%EA%B8%B0&searchRank=53"],
+									["대학교 레포트 쓰는법","https://m.blog.naver.com/PostView.nhn?blogId=seo_0201&logNo=221227858384&proxyReferer=https:%2F%2Fwww.google.com%2F"]
 								]
 							},
 						},
 						{
-							name: "Parcel",
+							name: "조별과제 ",
 							description: {
-								text: "Learn how you can use Parcel to bundle your code.",
+								text: "다양한 사람들과 만나서 팀을 만들고, 공통된 목표를 수행하며 프로젝트를 진행하는 법을 익혀봅시다.",
 								links: [
-									["Parcel - Getting Started", "https://parceljs.org/getting_started.html"],
-									["Parcel, a simpler webpack", "https://flaviocopes.com/parcel/"]
+									["[학업 꿀팁] 대학교 조별 과제 필수 상식 8 -PPT/발표 편", "https://m.post.naver.com/viewer/postView.nhn?volumeNo=14147999&memberNo=10505396&vType=VERTICAL"],
+									["선배들이 알려주는 조별과제의 모든 것 ","https://m.blog.naver.com/PostView.nhn?blogId=usw1982&logNo=221239928052&proxyReferer=https:%2F%2Fwww.google.com%2F"],
+									["이것만 알아도 조별과제 만렙! 자료조사 꿀팁 8 ", "https://1boon.kakao.com/aplusgirl/20190322_teamproject"],
+									["대학교에서 살아남기 팀플, 조별과제 편", "https://m.blog.naver.com/PostView.nhn?blogId=danny2088cd&logNo=20206655265&proxyReferer=https:%2F%2Fwww.google.com%2F"],
+                                    ["대학교에서 팀플 잘하는법 총정리","https://m.post.naver.com/viewer/postView.nhn?volumeNo=15697006&memberNo=7409430"]
 								]
 							},
 						},
 						{
-							name: "Snowpack",
+							name: "논문 읽기",
 							description: {
-								text: "Learn how Snowpack can replace the traditional app bundler during development.",
+								text: "더 깊은 지식을 얻기 위해서 필요한 분야의 논문을 찾고, 읽는 방법을 배워봅시다.",
 								links: [
-									["Snowpack", "https://www.snowpack.dev/"],
-									["Snowpack - Quickstart", "https://www.snowpack.dev/#quickstart"],
-									["Github - Snowpack", "https://github.com/pikapkg/snowpack"],
-									["Pika - About", "https://www.pika.dev/about/"],
-									["A Future Without Webpack", "https://www.pika.dev/blog/pika-web-a-future-without-webpack/"],
+									["영어 못해도 논문 잘 읽는 법", "http://gradschoolstory.net/terry/readingpapers/"],
+									["초심자의 논문 읽기", "https://phdkim.net/job/article/45/?utm_source=stibee"],
+									["내과제를 도와줄 무료 학술논문 사이트 총정리", "https://m.blog.naver.com/PostView.nhn?blogId=juchecknam&logNo=221399344498&proxyReferer=https:%2F%2Fwww.google.com%2F"],
+
+								]
+							},
+						},
+						{
+							name: "교재 구입",
+							description: {
+								text: "값비싼 대학 교재를 서점에서 구입하기보다는 다양한 방법을 통해 돈을 아끼고 많은 책을 얻을 수 있는 방법을 알아봅시다.",
+								links: [
+									["영어 못해도 논문 잘 읽는 법", "http://gradschoolstory.net/terry/readingpapers/"],
+									["초심자의 논문 읽기", "https://phdkim.net/job/article/45/?utm_source=stibee"],
+									["내과제를 도와줄 무료 학술논문 사이트 총정리", "https://m.blog.naver.com/PostView.nhn?blogId=juchecknam&logNo=221399344498&proxyReferer=https:%2F%2Fwww.google.com%2F"],
+
 								]
 							},
 						}
