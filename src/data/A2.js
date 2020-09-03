@@ -106,9 +106,6 @@ export const A2 = {
 							description: {
 								text: "값비싼 대학 교재를 서점에서 구입하기보다는 다양한 방법을 통해 돈을 아끼고 많은 책을 얻을 수 있는 방법을 알아봅시다.",
 								links: [
-									["영어 못해도 논문 잘 읽는 법", "http://gradschoolstory.net/terry/readingpapers/"],
-									["초심자의 논문 읽기", "https://phdkim.net/job/article/45/?utm_source=stibee"],
-									["내과제를 도와줄 무료 학술논문 사이트 총정리", "https://m.blog.naver.com/PostView.nhn?blogId=juchecknam&logNo=221399344498&proxyReferer=https:%2F%2Fwww.google.com%2F"],
 
 								]
 							},
@@ -116,146 +113,166 @@ export const A2 = {
 					]
 				},
 				{
-					name: "Linters and formatters",
+					name: "시설",
 					description: {
-						text: "Learn how you can improve your code quality with linters and formatters.",
+						text: "학교에는 여러 가지 시설이 있습니다",
 						links: [
-							["Improve Your JavaScript Code Quality With Linters", "https://www.gistia.com/javascript-linters-formatter-prettier-eslint/"],
-							["Why you should always use a Linter", "https://medium.com/dailyjs/why-you-should-always-use-a-linter-and-or-pretty-formatter-bb5471115a76"],
+							["부속 시설", "https://www.chungbuk.ac.kr/site/www/sub.do?key=555"],
 						]
 					},
 					skills: [
 						{
-							name: "Prettier",
+							name: "도서관",
 							description: {
-								text: "Learn how you can use Prettier to format your code.",
+								text: "책을 빌리고, 혹은 자리를 빌려서 공부를 하거나 조별 모임을 하기 위해 도서관 이용 방법을 익혀봅시다.",
 								links: [
-									["Prettier - What is Prettier?", "https://prettier.io/docs/en/index.html"],
-									["Let the computer do the formatting", "https://blog.bitsrc.io/let-the-computer-do-the-formatting-ddb799e8a068"],
-									["Prettier - Playground", "https://prettier.io/playground/"],
-									["Prettier - Integrating with Linters", "https://prettier.io/docs/en/integrating-with-linters.html"] 
+									["중앙 도서관 홈페이지", "중앙 도서관 홈 페이지"],
 								]
 							},
 						},
 						{
-							name: "ESLint",
+							name: "체육 시설",
 							description: {
-								text: "Learn how you can use ESLint to lint your code.",
+								text: "건강을 유지하기 위해 수영장과 헬스장 등 다양한 체육 시설을 이용하는 법을 알아봅시다.",
 								links: [
-									["Eslint - Getting Started", "https://eslint.org/docs/user-guide/getting-started"],
-									["Streamline Code Reviews with ESLint + Prettier", "https://medium.com/javascript-scene/streamline-code-reviews-with-eslint-prettier-6fb817a6b51d"],
-									["Prettier vs ESLint: What’s The Difference?", "https://www.futurehosting.com/blog/prettier-vs-eslint-whats-the-difference/"]
+									["체육 진흥원", "http://sports.chungbuk.ac.kr/"],
+							    ]
+							},
+						},
+						{
+							name: "기타 편의 시설",
+							description: {
+								text: "편의시설 무엇이 있는지 알아봅시다.",
+								links: [
+									["충북대 편의시설", "https://blog.naver.com/cbnu_eca/221817342401"],
+							    ]
+							},
+						},
+						{
+							name: "교내 지도",
+							description: {
+								text: "길을 잃지 않기 위해서 지도를 펼쳐봅시다.",
+								links: [
+									["캠퍼스 안내", "https://www.chungbuk.ac.kr/site/www/sub.do?key=563"],
+									["캠퍼스 지도", "https://www.chungbuk.ac.kr/resource/site/www/campus_map.jsp"]
+							    ]
+							},
+						},
+					]
+				},
+				{
+					name: "교내 행사&축제",
+					description: {
+						text: "대학생은 노는 것도 재미있게 놀 수 있어야 합니다.",
+						links: [
+
+						]
+					},
+					skills: [
+						{
+							name: "MT",
+							description: {
+								text: "학과 사람들이나 혹은 동아리에서 MT를 가게 되었을 때의 몇 가지 팁들을 알아봅시다.",
+								links: [
+									["신나는 MT를 즐기기 위한 MT필수템!! 대학생 MT갈 때 챙겨가면 좋은 준비물 BEST 5 ", "https://m.blog.naver.com/PostView.nhn?blogId=gooddaysoju_official&logNo=220946467405&proxyReferer=https:%2F%2Fwww.google.com%2F"],
+									["대학엠티 게임, 재미있는 대학 MT게임 추천과 간단한 엠티대본", "https://m.blog.naver.com/PostView.nhn?blogId=goodp2595&logNo=221191124715&proxyReferer=https:%2F%2Fwww.google.com%2F"],
+									["MT 가서 지켜야 하는 매너","https://1boon.kakao.com/univ20_1boon/5b1f7e07f3a1d4000149a538"]
+								]
+							},
+						},
+						{
+							name: "축제",
+							description: {
+								text: "학교에서 더 재미있게 축제를 즐기는 법을 알아봅시다.",
+								links: [
+									["학생회 행사", "https://www.chungbuk.ac.kr/site/f03/sub.do?key=246"],
+									["행사일정", "http://www.chungbuk.ac.kr/site/www/sub.do?key=814"],
+									["대학교 축제 즐기는법","https://blog.hyosung.com/518"]
 								]
 							},
 						}
 					]
 				},
 				{
-					name: "Task Runners",
+					name: "특별 활동",
 					description: {
-						text: "Learn about task runners and how you can automate code execution.",
+						text: "학교에서는 다양한 사람들을 만나고, 어떤 책임을 맡을 수도 있습니다.",
 						links: [
-							["The Advantages of Using Task Runners", "https://www.dbswebsite.com/blog/the-advantages-of-using-task-runners/"],
-							["Being Productive With Task Runners", "https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/"],
+
 						]
 					},
 					skills: [
 						{
-							name: "NPM Scripts",
+							name: "학생회 ",
 							description: {
-								text: "Learn about NPM scripts and how you can run your own.",
+								text: "학과의 운영을 위한 학과 학생회가 되거나, 혹은 단과대학 학생회, 그리고 총학생회 등에 참여하여 학생들을 위해 일해봅시다.",
 								links: [
-									["CSS Tricks - Why npm Scripts?", "https://css-tricks.com/why-npm-scripts/"],
-									["Helpers and tips for npm run scripts", "https://michael-kuehnel.de/tooling/2018/03/22/helpers-and-tips-for-npm-run-scripts.html"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Transpilers",
-					description: {
-						text: "Learn what transpilers are and why we need them.",
-						links: [
-							["Scotch - Javascript Transpilers", "https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them"],
-							["What JavaScript Programmers Need to Know about Transpilers", "https://thenewstack.io/javascript-transpilers-need-know/"],
-							["Wikipedia - Source-to-source compiler", "https://en.wikipedia.org/wiki/Source-to-source_compiler"],
-						]
-					},
-					skills: [
-						{
-							name: "Babel",
-							description: {
-								text: "Learn about Babel and how you can use it to transpile your code.",
-								links: [
-									["Complete Babel 7 Guide for Beginners", "https://medium.com/@onlykiosk/complete-babel-7-guide-for-beginners-in-2019-7dd78214c464"],
-									["Babel - What is Babel?", "https://babeljs.io/docs/en/"],
-									["Babel - Usage Guide", "https://babeljs.io/docs/en/usage"],
-									["A Beginner’s Guide to Babel", "https://www.sitepoint.com/babel-beginners-guide/"],
-									["Moving to ES6 — Babel and Transpilers", "https://hackernoon.com/moving-to-es6-babel-and-transpilers-337921c025b1"],
+								    ["학생회 소개", "https://www.chungbuk.ac.kr/site/www/sub.do?key=816"],
+									["총학생회", "http://club.cyworld.com/cbnuFeel"],
 								]
 							}
 						},
 						{
-							name: "Typescript",
+							name: "홍보대사",
 							description: {
-								text: "Learn how to use Typescript and how it can help making your code typesafe.",
+								text: "학교를 홍보하고 다양한 사진을 찍으며 특별한 경험을 할 수 있는 홍보대사에 대해 알아봅시다.",
 								links: [
-									["Typescript - Documentation", "http://www.typescriptlang.org/docs/home.html"],
-									["Typescript: Why should one use i?", "https://medium.com/tech-tajawal/typescript-why-should-one-use-it-a539faa92010"],
-									["Why TypeScript is the best way to write Front-end in 2019", "https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164"]
+									["충북대 홍보대사", "https://www.chungbuk.ac.kr/site/pr/sub.do?key=1723"],
+								]
+							},
+						},
+						{
+							name: "방송부&신문사",
+							description: {
+								text: "학교의 소식을 전달하는 방송부와 신문사에 들어가는 방법을 알아봅시다.",
+								links: [
+									["충북대 온라인뉴스레터", "https://www.chungbuk.ac.kr/site/pr/webzineList.do?key=535&"],
+									["충북대 신문", "http://press.chungbuk.ac.kr/"]
 								]
 							},
 						}
 					]
 				},
 				{
-					name: "CSS Pre-processors",
+					name: "서류 관련",
 					description: {
-						text: "Learn about CSS pre-processors and why we need them.",
+						text: "대학생은 많은 문서를 접하게 됩니다.",
 						links: [
-							["MDN - CSS preprocessor", "https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor"],
-							["Advantages of Using a Preprocessor", "https://medium.com/swlh/advantages-of-using-a-preprocessor-sass-in-css-eb7310179944"],
-							["Deconfusing Pre- and Post-processing", "https://medium.com/@ddprrt/deconfusing-pre-and-post-processing-d68e3bd078a3"],
+
 						]
 					},
 					skills: [
 						{
-							name: "SASS",
+							name: "학생증",
 							description: {
-								text: "Learn about SASS and how you can use it to simplify your styles.",
+								text: "학생증을 재발급 받는 방법을 알아봅시다.",
 								links: [
-									["SASS - Guide", "https://sass-lang.com/guide"],
-									["10 Reasons to Use a CSS Preprocessor in 2018", "https://raygun.com/blog/10-reasons-css-preprocessor/"],
+									["충북대 학생증", "https://www.chungbuk.ac.kr/site/www/content.do?key=863&consite=f09&conkey=418"]
 								]
 							}
 						},
 						{
-							name: "PostCSS",
+							name: "국제 학생증",
 							description: {
-								text: "Learn about PostCSS and how you can use its ecosystem of plugins to extend your CSS build pipeline.",
+								text: "국제 학생증을 재발급 받는 방법을 알아봅시다.",
 								links: [
-									["PostCSS", "https://postcss.org/"],
-									["What is PostCSS?", "https://www.sitepoint.com/an-introduction-to-postcss/"],
-									["Introduction to PostCSS", "https://flaviocopes.com/postcss/"],
-									["Getting started with PostCSS in 2019", "https://blog.logrocket.com/getting-started-with-postcss-in-2019-484262a4d725/"]
+									["충북대 국제학생증", "https://isic.co.kr/chungbuk/chungbukIndex.jsp"],
+								]
+							}
+						},
+						{
+							name: "각종 증명서",
+							description: {
+								text: "학교 생활을 하며 필요한 다양한 서류를 출력하는 방법을 알아봅시다.",
+								links: [
+									["충북대 발급 방법", "https://www.chungbuk.ac.kr/site/www/content.do?key=677&consite=f09&conkey=404"],
+									["충북대 개신누리", "https://eis.cbnu.ac.kr/cbnuLogin?1598876433"]
 								]
 							}
 						}
 					]
 				},
-				{
-					name: "Node.js",
-					description: {
-						text: "Learn how to use Node.js.",
-						links: [
-							["Node.js", "https://nodejs.org"],
-							["Introduction to Node.js", "https://nodejs.dev/"],
-							["Node.js - Guides", "https://nodejs.org/en/docs/guides/"],
-							["W3Schools - Node.js tutorial", "https://www.w3schools.com/nodejs/"]
-						]
-					}
-				}
+
 			]
 		}
 	]
