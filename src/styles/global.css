@@ -47,7 +47,8 @@ html {
 	--font-size-l: calc(16 / var(--base-size) * 1rem);
 	--font-size-xl: calc(20 / var(--base-size) * 1rem);
 
-	--font-family: 'Rubik', sans-serif;
+	--font-family: 'Noto Sans KR', sans-serif;
+
 
 	--focus-outline: 5px auto rgb(77, 144, 254);
 
@@ -64,6 +65,11 @@ body {
 	overscroll-behavior: contain;
 	-webkit-overflow-scrolling: touch;
 	scroll-behavior: smooth;
+	background: #1D4350;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-size : 20px;
+	;
 }
 
 #snack-container {

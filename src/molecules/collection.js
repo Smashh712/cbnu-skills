@@ -44,8 +44,11 @@ export class Collection extends LitElement {
 					cursor: pointer;
 					position: relative;
 					display: inline-block;
+					font-family: 'Jua', sans-serif;
+					font-size: 42px
+					
 				}
-				
+				/* 옆에 붙는 샵*/
 				#title:hover:before {
 					content: "#";
 					color: var(--shade-500);
