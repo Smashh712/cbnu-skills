@@ -39,10 +39,10 @@ export const A1 = {
 						{
 							name: "하숙",
 							description: {
-								text: "Learn how you can use Rollup to bundle your code.",
+								text: "때로는 누군가가 관리하는 집에서 하숙하는 것도 나쁘지 않습니다. 하숙에 대해 알아봅시다.",
 								links: [
-									["Rollup - Introduction", "https://rollupjs.org/guide/en/"],
-									["How to Bundle JavaScript With Rollup", "https://lengstorf.com/learn-rollup-js/"],
+									["하숙집 구하기", "https://www.hasy.com:11639//html2/index.php?lst_sido=%EC%B6%A9%EB%B6%81&page=&ptype=view&bh_idx=115"],
+									["하숙집 장단점", "https://m.blog.naver.com/gpfus1327/221214192129"],
 								]
 							},
 						}
@@ -65,6 +65,7 @@ export const A1 = {
 								text: "저렴하고, 가깝고, 고민하지 않아도 되는 학식을 먹어봅시다. ",
 								links: [
 									["한빛 식당", "http://coop.cbnu.ac.kr/index.php?mid=m0301"],
+									["별빛 식당", "http://coop.cbnu.ac.kr/index.php?mid=m0302"]
 								]
 							},
 						},

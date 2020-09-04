@@ -29,8 +29,8 @@ export const A5 = {
 							description: {
 								text: "기차를 타고, 전국을 순회하는 내일로에 대해 알아봅시다.",
 								links: [
-									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
-									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],
+									["내일로 소개", "http://www.letskorail.com/ebizprd/EbizPrdPassRailroIntroW_hc11901.do"],
+									["기차vs버스 비교", "https://kyobolifeblog.co.kr/2838"],
 								]
 							},
 						},
