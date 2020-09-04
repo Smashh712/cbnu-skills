@@ -8,7 +8,7 @@ export const A2 = {
 					description: {
 						text: "다른 사람과 소통하고 대화하면서 인간 관계를 유지하는 방법을 배워봅시다",
 						links: [
-							[""]
+
 						]
 					},
 					skills: [

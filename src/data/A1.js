@@ -55,7 +55,7 @@ export const A1 = {
 					description: {
 						text: "하루 세 끼를 어떻게 먹을 지 생각해봅시다.",
 						links: [
-							[""]
+
 						]
 					},
 					skills: [
@@ -98,7 +98,7 @@ export const A1 = {
 					description: {
 						text: "학교를 가는 방법도 여러가지입니다.",
 						links: [
-							[""]
+
 						]
 					},
 					skills: [
@@ -142,7 +142,7 @@ export const A1 = {
 					description: {
 						text: "대학생의 돈은 한정되어있고, 지출은 많습니다",
 						links: [
-							[""]
+
 						]
 					},
 					skills: [
@@ -199,7 +199,7 @@ export const A1 = {
 					description: {
 						text: "살아가기 위해 필요한 물건들이 있습니다.",
 						links: [
-							[""]
+
 						]
 					},
 					skills: [
