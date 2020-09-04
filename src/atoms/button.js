@@ -29,7 +29,7 @@ export class Button extends LitElement {
 					width: 100%;
 					background: transparent;
 					color: inherit;
-					font-size: inherit;
+					font-size: 20px;
 					cursor: pointer;
 					transition: opacity 120ms ease;
 					opacity: 1;
