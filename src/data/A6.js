@@ -38,7 +38,7 @@ export const A6 = {
 				{
 					name: "건강 관리",
 					description: {
-						text: "건강 관리 하는 방버에 대해 알아봅시다.",
+						text: "건강을 관리하려면 많은 노력이 필요합니다. 현 상황에서 살아남는 방법에 대해 알아봅시다.",
 						links: [
 
 						]
@@ -58,7 +58,7 @@ export const A6 = {
 					]
 				},
 				{
-					name: "확진자 이동 경로에 방문시 대처방안",
+					name: "확진자 접촉",
 					description: {
 						text: "확진자 이동 경로에 방문했을시 대응하는 방법에 대해 알려줍니다.",
 						links: [
