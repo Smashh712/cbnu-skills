@@ -4,245 +4,230 @@ export const A4 = {
 		{
 			skills: [
 				{
-					name: "거주",
+					name: "영어",
 					description: {
-						text: "어디서 살 지 결정하는 것은 중요합니다.",
+						text: "영어는 필수입니다.",
 						links: [
-							["자취 vs 하숙 vs 기숙", "http://www.lgchallengers.com/campus/trend/20110915up/"],
+
 						]
 					},
 					skills: [
 						{
-							name: "자취방",
+							name: "공인인증시험",
 							description: {
-								text: "혼자서 살기 위해 좋은 방을 구하는 방법을 알아봅시다.",
+								text: "토익/토플 등 다양한 공인 인증 시험을 공부하는 법을 알아봅시다.",
 								links: [
-									["npmjs - About npm", "https://www.zigbang.com/"],
-									["npmjs - Getting started", "https://www.peterpanz.com/"],
-									["Introduction to npm and basic npm commands", "http://honjaguide.com/recommend"],
-									["An Absolute Beginner's Guide to Using npm", "https://blog.toss.im/2020/03/12/money/life/kimtoss-rentroom/"],
+									["토익", "https://exam.ybmnet.co.kr/toeic/"],
+									["토익 스피킹", "https://exam.ybmnet.co.kr/toeicswt/"],
+									["OPIC", "https://m.opic.or.kr/opics/jsp/senior/indexMobile.jsp"],
+
 								]
 							},
 						},
 						{
-							name: "기숙사",
+							name: "회화",
 							description: {
-								text: "저렴한 가격으로 안전한 기숙사에서 생활하는 법을 알아봅시다.",
+								text: "영어로 말하는 방법을 익히는 법을 알아봅시다.",
 								links: [
-									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
-									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],
+									["단어 정리", "http://www.englishspeak.com/ko/english-lessons"],
+									["듣기", "https://www.audioenglish.org/"],
+									["회화" , "https://www.freeenglishnow.com/"]
 								]
 							},
 						},
 						{
-							name: "하숙",
+							name: "외국인 사귀기",
 							description: {
-								text: "때로는 누군가가 관리하는 집에서 하숙하는 것도 나쁘지 않습니다. 하숙에 대해 알아봅시다.",
+								text: "외국인과 실제로 관계를 유지하여 영어를 익혀봅시다.",
 								links: [
-									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
-									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],
+									["인터팔", "https://www.interpals.net/"],
+									["펜팔 가든", "http://www.penpalgarden.com/"],
+									["펜팔 월드", "http://www.penpalworld.com/"]
 								]
 							},
 						}
 					]
 				},
 				{
-					name: "Module Bundlers",
+					name: "자격증",
 					description: {
-						text: "Learn about module bundler and how they can help bundling your code.",
+						text: "다양한 자격증을 통해 자신의 능력을 증명해봅시다",
 						links: [
-							["dev.to - What is a module bundler?", "https://dev.to/tanhauhau/what-is-module-bundler-and-how-does-it-work-3gp2"],
-							["Freecodecamp - Let’s learn how module bundlers work", "https://www.freecodecamp.org/news/lets-learn-how-module-bundlers-work-and-then-write-one-ourselves-b2e3fe6c88ae/"],
-							["JavaScript Bundlers, a Comparison", "https://medium.com/@ajmeyghani/javascript-bundlers-a-comparison-e63f01f2a364"],
+
 						]
 					},
 					skills: [
 						{
-							name: "Rollup",
+							name: "전공 관련 자격증",
 							description: {
-								text: "Learn how you can use Rollup to bundle your code.",
+								text: "산업기사, 기사 등의 자격증을 취득하는 법을 알아봅시다.",
 								links: [
-									["Rollup - Introduction", "https://rollupjs.org/guide/en/"],
-									["How to Bundle JavaScript With Rollup", "https://lengstorf.com/learn-rollup-js/"],
+									["CBT 기출문제", "https://www.comcbt.com/"],
+									["기사 접수", "http://www.q-net.or.kr/man004.do?id=manSubMain"],
+									["도타비 기출문제", "https://www.gunsys.com/cbt_list/index.php?cbt=gisa"]
 								]
 							},
 						},
 						{
-							name: "Webpack",
+							name: "특기 관련 자격증",
 							description: {
-								text: "Learn how you can use Webpack to bundle your code.",
+								text: "엑셀이나, 워드, 혹은 포토샵, 일러스트레이터 등의 특기를 다루는 자격증을 따봅시다.",
 								links: [
-									["Webpack - Getting Started", "https://webpack.js.org/guides/getting-started/"],
-									["Webpack: A Gentle Introduction to the Module Bundler", "https://auth0.com/blog/webpack-a-gentle-introduction/"],
+									["컴활 필기 기출문제", "https://www.comcbt.com/"],
+									["포토샵 공부 사이트", "http://blog.naver.com/hyoyeol"],
+									["실용 음악", "http://fevernigga.tistory.com/7"]
 								]
 							},
 						},
 						{
-							name: "Parcel",
+							name: "한국사 자격증",
 							description: {
-								text: "Learn how you can use Parcel to bundle your code.",
+								text: "한국사 자격증의 대해 알아봅시다",
 								links: [
-									["Parcel - Getting Started", "https://parceljs.org/getting_started.html"],
-									["Parcel, a simpler webpack", "https://flaviocopes.com/parcel/"]
+									["한국사 ebs 무료 강의", "http://www.ebsi.co.kr/ebs/lms/lmsx/retrieveSbjtDtl.ebs?sbjtId=S20130001114"],
+									["한국사 이투스 무료 강의", "https://www.etoos.com/bigstar/main.asp?teacher_id=200340"],
+									["한국사 취득 팁","https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%82%AC%EB%8A%A5%EB%A0%A5%EA%B2%80%EC%A0%95%EC%8B%9C%ED%97%98/%ED%95%99%EC%8A%B5%20%EC%A1%B0%EC%96%B8"]
+								]
+							},
+						},
+
+					]
+				},
+				{
+					name: "인턴십",
+					description: {
+						text: "미리 경험을 해보는 인턴십을 통해 진로를 선택할 수 있습니다.",
+						links: [
+
+						]
+					},
+					skills: [
+					{
+							name: "기업 인턴십",
+							description: {
+								text: "자기에게 맞는 적절한 회사에서 인턴십을 하는 방법을 알아봅시다.",
+								links: [
+									["외국 기업 인턴십", "https://www.peoplenjob.com/jobs?type=intern"],
+							["사람인 인턴 채용", "http://www.saramin.co.kr/zf_user/search?searchword=%EC%9D%B8%ED%84%B4"],
+							["잡코리아 인턴", "https://www.jobkorea.co.kr/"]
+
 								]
 							},
 						},
 						{
-							name: "Snowpack",
+							name: "공공기관 인턴십",
 							description: {
-								text: "Learn how Snowpack can replace the traditional app bundler during development.",
+								text: "특별한 목적을 갖고 있는 공공기관에서 다양한 경험을 해봅시다.",
 								links: [
-									["Snowpack", "https://www.snowpack.dev/"],
-									["Snowpack - Quickstart", "https://www.snowpack.dev/#quickstart"],
-									["Github - Snowpack", "https://github.com/pikapkg/snowpack"],
-									["Pika - About", "https://www.pika.dev/about/"],
-									["A Future Without Webpack", "https://www.pika.dev/blog/pika-web-a-future-without-webpack/"],
+									["공기업 인턴 검색 사이트", "https://kr.indeed.com/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EC%9D%B8%ED%84%B4%EC%A7%81-%EC%B7%A8%EC%97%85"],
+									["알리오", "http://www.alio.go.kr/home.do"],
+									["공공기관 인턴 팁", "https://dev.superookie.com/contents/5f33856d8b129f40141c1e6f"],
+
+								]
+							},
+						},
+						{
+							name: "연구실 인턴십",
+							description: {
+								text: "대학원을 진학하거나, 연구 경험을 쌓기 위해서 랩실에서 인턴십을 하는 방법을 알아봅시다.",
+								links: [
+									["충북대 인턴 공지사항", "https://www.chungbuk.ac.kr/site/www/boardList.do"],
+									["PhD.Kim", "https://phdkim.net/board/free/558/"],
+									["구글 연구실 인턴 정보", "https://www.google.com/search?sxsrf=ALeKk013asdzhRvSKtS_eacO-0Bs4S5IHg:1598952680562&ei=6BROX9_3IbmNr7wPsoqLoA4&q=%EC%97%B0%EA%B5%AC%EC%8B%A4+%EC%9D%B8%ED%84%B4+%EC%A0%95%EB%B3%B4&oq=%EC%97%B0%EA%B5%AC%EC%8B%A4+%EC%9D%B8%ED%84%B4+%EC%A0%95%EB%B3%B4&gs_lcp=CgZwc3ktYWIQAzIFCCEQoAEyBQghEKABOgQIIxAnOgIIADoFCAAQzQI6BAgAEB46BggAEAUQHkoFCCASATBKBQgoEgEwUOwIWKUSYIUTaANwAHgAgAF9iAGjCJIBAzAuOZgBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&uact=5&ibp=htl;jobs&sa=X&ved=2ahUKEwi2kej10sfrAhU4yYsBHXUVBk8QiYsCKAJ6BAgKEAs&sxsrf=ALeKk02bWy7jujSj-L7mC8akDySQacn4Ng:1598952683742#htivrt=jobs&htidocid=HShvgmrbApQFAwnyAAAAAA%3D%3D&fpstate=tldetail"]
 								]
 							},
 						}
 					]
 				},
 				{
-					name: "Linters and formatters",
+					name: "공모전",
 					description: {
-						text: "Learn how you can improve your code quality with linters and formatters.",
+						text: "자신의 능력을 펼치고, 상금까지 얻을 수 있는 공모전에 참여해봅시다.",
 						links: [
-							["Improve Your JavaScript Code Quality With Linters", "https://www.gistia.com/javascript-linters-formatter-prettier-eslint/"],
-							["Why you should always use a Linter", "https://medium.com/dailyjs/why-you-should-always-use-a-linter-and-or-pretty-formatter-bb5471115a76"],
+
 						]
 					},
 					skills: [
 						{
-							name: "Prettier",
+							name: "교내 공모전 & 경진대회",
 							description: {
-								text: "Learn how you can use Prettier to format your code.",
+								text: "경쟁이 상대적으로 치열하지 않고, 참가하기가 쉬운 교내 공모전을 알아봅시다.",
 								links: [
-									["Prettier - What is Prettier?", "https://prettier.io/docs/en/index.html"],
-									["Let the computer do the formatting", "https://blog.bitsrc.io/let-the-computer-do-the-formatting-ddb799e8a068"],
-									["Prettier - Playground", "https://prettier.io/playground/"],
-									["Prettier - Integrating with Linters", "https://prettier.io/docs/en/integrating-with-linters.html"] 
+									["충북대 공모전 공지사항", "https://www.chungbuk.ac.kr/site/www/boardList.do"],
+									["공모전 팁", "https://blog.naver.com/moeblog/221399213065"],
 								]
 							},
 						},
 						{
-							name: "ESLint",
+							name: "교외 공모전",
 							description: {
-								text: "Learn how you can use ESLint to lint your code.",
+								text: "다양한 분야에서 스펙으로 이어질 수 있는 교외 공모전에 대해서 알아봅시다.",
 								links: [
-									["Eslint - Getting Started", "https://eslint.org/docs/user-guide/getting-started"],
-									["Streamline Code Reviews with ESLint + Prettier", "https://medium.com/javascript-scene/streamline-code-reviews-with-eslint-prettier-6fb817a6b51d"],
-									["Prettier vs ESLint: What’s The Difference?", "https://www.futurehosting.com/blog/prettier-vs-eslint-whats-the-difference/"]
+									["위비티 공모전", "https://www.wevity.com/"],
+									["씽굿 공모전", "https://www.thinkcontest.com/"],
+									["캠퍼스몬 공모전", "https://campusmon.jobkorea.co.kr/"]
 								]
 							},
 						}
 					]
 				},
 				{
-					name: "Task Runners",
+					name: "진로",
 					description: {
-						text: "Learn about task runners and how you can automate code execution.",
+						text: "앞으로 어떤 진로를 나아갈지를 생각해봅시다.",
 						links: [
-							["The Advantages of Using Task Runners", "https://www.dbswebsite.com/blog/the-advantages-of-using-task-runners/"],
-							["Being Productive With Task Runners", "https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/"],
+
 						]
 					},
 					skills: [
 						{
-							name: "NPM Scripts",
+							name: "취업지원본부",
 							description: {
-								text: "Learn about NPM scripts and how you can run your own.",
+								text: "학교 안에서 취업을 도와주는 부서의 도움을 받아봅시다.",
 								links: [
-									["CSS Tricks - Why npm Scripts?", "https://css-tricks.com/why-npm-scripts/"],
-									["Helpers and tips for npm run scripts", "https://michael-kuehnel.de/tooling/2018/03/22/helpers-and-tips-for-npm-run-scripts.html"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Transpilers",
-					description: {
-						text: "Learn what transpilers are and why we need them.",
-						links: [
-							["Scotch - Javascript Transpilers", "https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them"],
-							["What JavaScript Programmers Need to Know about Transpilers", "https://thenewstack.io/javascript-transpilers-need-know/"],
-							["Wikipedia - Source-to-source compiler", "https://en.wikipedia.org/wiki/Source-to-source_compiler"],
-						]
-					},
-					skills: [
-						{
-							name: "Babel",
-							description: {
-								text: "Learn about Babel and how you can use it to transpile your code.",
-								links: [
-									["Complete Babel 7 Guide for Beginners", "https://medium.com/@onlykiosk/complete-babel-7-guide-for-beginners-in-2019-7dd78214c464"],
-									["Babel - What is Babel?", "https://babeljs.io/docs/en/"],
-									["Babel - Usage Guide", "https://babeljs.io/docs/en/usage"],
-									["A Beginner’s Guide to Babel", "https://www.sitepoint.com/babel-beginners-guide/"],
-									["Moving to ES6 — Babel and Transpilers", "https://hackernoon.com/moving-to-es6-babel-and-transpilers-337921c025b1"],
+
+									["충북대 취업지원 본부", "http://m.hrd.chungbuk.ac.kr/"],
+
 								]
 							}
 						},
 						{
-							name: "Typescript",
+							name: "사제상담",
 							description: {
-								text: "Learn how to use Typescript and how it can help making your code typesafe.",
+								text: "교수님과 진로에 대해서 이야기하는 시간을 가져봅시다.",
 								links: [
-									["Typescript - Documentation", "http://www.typescriptlang.org/docs/home.html"],
-									["Typescript: Why should one use i?", "https://medium.com/tech-tajawal/typescript-why-should-one-use-it-a539faa92010"],
-									["Why TypeScript is the best way to write Front-end in 2019", "https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164"]
+									["충북대 의사소통센터", "https://cicenter.chungbuk.ac.kr/M060000/M060400.jsp?act=view&boid=m060400&bdseq=7417&p=1&cate=&kf=&kw="],
+
 								]
 							},
 						}
 					]
 				},
 				{
-					name: "CSS Pre-processors",
+					name: "취업 팁",
 					description: {
-						text: "Learn about CSS pre-processors and why we need them.",
+						text: "취업과 관련한 다양한 팁을 알아봅시다.",
 						links: [
-							["MDN - CSS preprocessor", "https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor"],
-							["Advantages of Using a Preprocessor", "https://medium.com/swlh/advantages-of-using-a-preprocessor-sass-in-css-eb7310179944"],
-							["Deconfusing Pre- and Post-processing", "https://medium.com/@ddprrt/deconfusing-pre-and-post-processing-d68e3bd078a3"],
+
 						]
 					},
 					skills: [
 						{
-							name: "SASS",
+							name: "취업사이트 모음",
 							description: {
-								text: "Learn about SASS and how you can use it to simplify your styles.",
+								text: "취업에 도움되는 사이트들을 모아놨습니다.",
 								links: [
-									["SASS - Guide", "https://sass-lang.com/guide"],
-									["10 Reasons to Use a CSS Preprocessor in 2018", "https://raygun.com/blog/10-reasons-css-preprocessor/"],
+									["잡플래닛", "https://www.jobplanet.co.kr/contents"],
+									["자소설 닷컴", "https://jasoseol.com/"],
+									["해커스잡","https://job.hackers.com/"]
+
 								]
 							}
 						},
-						{
-							name: "PostCSS",
-							description: {
-								text: "Learn about PostCSS and how you can use its ecosystem of plugins to extend your CSS build pipeline.",
-								links: [
-									["PostCSS", "https://postcss.org/"],
-									["What is PostCSS?", "https://www.sitepoint.com/an-introduction-to-postcss/"],
-									["Introduction to PostCSS", "https://flaviocopes.com/postcss/"],
-									["Getting started with PostCSS in 2019", "https://blog.logrocket.com/getting-started-with-postcss-in-2019-484262a4d725/"]
-								]
-							}
-						}
+
 					]
 				},
-				{
-					name: "Node.js",
-					description: {
-						text: "Learn how to use Node.js.",
-						links: [
-							["Node.js", "https://nodejs.org"],
-							["Introduction to Node.js", "https://nodejs.dev/"],
-							["Node.js - Guides", "https://nodejs.org/en/docs/guides/"],
-							["W3Schools - Node.js tutorial", "https://www.w3schools.com/nodejs/"]
-						]
-					}
-				}
+
 			]
 		}
 	]
