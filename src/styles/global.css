@@ -47,7 +47,7 @@ html {
 	--font-size-l: calc(16 / var(--base-size) * 1rem);
 	--font-size-xl: calc(20 / var(--base-size) * 1rem);
 
-	--font-family: 'Rubik', sans-serif;
+	--font-family: 'Poor Story', cursive;
 
 	--focus-outline: 5px auto rgb(77, 144, 254);
 
@@ -59,6 +59,7 @@ html {
 }
 
 body {
+	font-size:32px;
 	margin: 0;
 	line-height: 1.2;
 	overscroll-behavior: contain;
