@@ -103,7 +103,7 @@ export const A1 = {
 					},
 					skills: [
 						{
-							name: "대중고툥",
+							name: "대중교통",
 							description: {
 								text: "장거리 통학을 위해 지하철과 버스를 이용해봅시다.",
 								links: [
