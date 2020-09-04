@@ -4,245 +4,93 @@ export const A6 = {
 		{
 			skills: [
 				{
-					name: "거주",
+					name: "비대면 수업",
 					description: {
-						text: "어디서 살 지 결정하는 것은 중요합니다.",
+						text: "코로나 19사태로 인한 비대면 수업 정보가 담겨 있습니다.",
 						links: [
-							["자취 vs 하숙 vs 기숙", "http://www.lgchallengers.com/campus/trend/20110915up/"],
+
 						]
 					},
 					skills: [
 						{
-							name: "자취방",
+							name: "교내 공지",
 							description: {
-								text: "혼자서 살기 위해 좋은 방을 구하는 방법을 알아봅시다.",
+								text: "비대면 수업과 관련한 교내 공지 확인",
 								links: [
-									["npmjs - About npm", "https://www.zigbang.com/"],
-									["npmjs - Getting started", "https://www.peterpanz.com/"],
-									["Introduction to npm and basic npm commands", "http://honjaguide.com/recommend"],
-									["An Absolute Beginner's Guide to Using npm", "https://blog.toss.im/2020/03/12/money/life/kimtoss-rentroom/"],
+									["충북대 코로나 19관련 안내", "https://www.chungbuk.ac.kr/intro/corona.html"],
+
 								]
 							},
 						},
 						{
-							name: "기숙사",
+							name: "블랙보드",
 							description: {
-								text: "저렴한 가격으로 안전한 기숙사에서 생활하는 법을 알아봅시다.",
+								text: "충북대 블랙보드에 대해 알아봅시다.",
 								links: [
-									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
-									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],
+									["[CBNU 비대면 수업]실시간 원격강의 학습자 안내", "https://www.youtube.com/watch?v=mJlZTJgERCM&feature=youtu.be"],
+									["스마트교육 플랫폼", "https://cbnu.blackboard.com/"],
+								]
+							},
+						},
+
+					]
+				},
+				{
+					name: "건강 관리",
+					description: {
+						text: "건강 관리 하는 방버에 대해 알아봅시다.",
+						links: [
+
+						]
+					},
+					skills: [
+						{
+							name: "마스크 착용",
+							description: {
+								text: "마스크를 착용해야 합니다.",
+								links: [
+									["코로나 19 방역 공지", "http://cuh.chungbuk.ac.kr/client/board/view.asp?sidx=127&cpage=1&db=notice"],
+
+								]
+							},
+						},
+
+					]
+				},
+				{
+					name: "확진자 이동 경로에 방문시 대처방안",
+					description: {
+						text: "확진자 이동 경로에 방문했을시 대응하는 방법에 대해 알려줍니다.",
+						links: [
+
+						]
+					},
+					skills: [
+						{
+							name: "선별 검사",
+							description: {
+								text: "코로나 환자와 접촉시 선별검사를 시행합니다.",
+								links: [
+									["코로나 19 선별검사 대상자", "https://blog.naver.com/kescomiri/221835562230"],
+									["국민안심병원 현황", "https://www.mohw.go.kr/react/popup_200128.html"],
+
 								]
 							},
 						},
 						{
-							name: "하숙",
+							name: "자가 격리",
 							description: {
-								text: "때로는 누군가가 관리하는 집에서 하숙하는 것도 나쁘지 않습니다. 하숙에 대해 알아봅시다.",
+								text: "코로나 환자와 접촉시 자가격리에 대해 알려줍니다.",
 								links: [
-									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
-									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],
+									["코로나19 자가격리대상자 생활수칙", "http://www.cdc.go.kr/gallery.es?mid=a20503020000&bid=0003&act=view&list_no=144776"],
+									["코로나19 자가격리대상자 가족 및 동거인 생활수칙", "http://www.cdc.go.kr/gallery.es?mid=a20503020000&bid=0003&act=view&list_no=144777"],
+									["코로나바이러스감염증-19(COVID-19) / 자가격리자", "http://ncov.mohw.go.kr/duBoardList.do?brdId=2&brdGubun=22"]
 								]
 							},
 						}
 					]
 				},
-				{
-					name: "Module Bundlers",
-					description: {
-						text: "Learn about module bundler and how they can help bundling your code.",
-						links: [
-							["dev.to - What is a module bundler?", "https://dev.to/tanhauhau/what-is-module-bundler-and-how-does-it-work-3gp2"],
-							["Freecodecamp - Let’s learn how module bundlers work", "https://www.freecodecamp.org/news/lets-learn-how-module-bundlers-work-and-then-write-one-ourselves-b2e3fe6c88ae/"],
-							["JavaScript Bundlers, a Comparison", "https://medium.com/@ajmeyghani/javascript-bundlers-a-comparison-e63f01f2a364"],
-						]
-					},
-					skills: [
-						{
-							name: "Rollup",
-							description: {
-								text: "Learn how you can use Rollup to bundle your code.",
-								links: [
-									["Rollup - Introduction", "https://rollupjs.org/guide/en/"],
-									["How to Bundle JavaScript With Rollup", "https://lengstorf.com/learn-rollup-js/"],
-								]
-							},
-						},
-						{
-							name: "Webpack",
-							description: {
-								text: "Learn how you can use Webpack to bundle your code.",
-								links: [
-									["Webpack - Getting Started", "https://webpack.js.org/guides/getting-started/"],
-									["Webpack: A Gentle Introduction to the Module Bundler", "https://auth0.com/blog/webpack-a-gentle-introduction/"],
-								]
-							},
-						},
-						{
-							name: "Parcel",
-							description: {
-								text: "Learn how you can use Parcel to bundle your code.",
-								links: [
-									["Parcel - Getting Started", "https://parceljs.org/getting_started.html"],
-									["Parcel, a simpler webpack", "https://flaviocopes.com/parcel/"]
-								]
-							},
-						},
-						{
-							name: "Snowpack",
-							description: {
-								text: "Learn how Snowpack can replace the traditional app bundler during development.",
-								links: [
-									["Snowpack", "https://www.snowpack.dev/"],
-									["Snowpack - Quickstart", "https://www.snowpack.dev/#quickstart"],
-									["Github - Snowpack", "https://github.com/pikapkg/snowpack"],
-									["Pika - About", "https://www.pika.dev/about/"],
-									["A Future Without Webpack", "https://www.pika.dev/blog/pika-web-a-future-without-webpack/"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Linters and formatters",
-					description: {
-						text: "Learn how you can improve your code quality with linters and formatters.",
-						links: [
-							["Improve Your JavaScript Code Quality With Linters", "https://www.gistia.com/javascript-linters-formatter-prettier-eslint/"],
-							["Why you should always use a Linter", "https://medium.com/dailyjs/why-you-should-always-use-a-linter-and-or-pretty-formatter-bb5471115a76"],
-						]
-					},
-					skills: [
-						{
-							name: "Prettier",
-							description: {
-								text: "Learn how you can use Prettier to format your code.",
-								links: [
-									["Prettier - What is Prettier?", "https://prettier.io/docs/en/index.html"],
-									["Let the computer do the formatting", "https://blog.bitsrc.io/let-the-computer-do-the-formatting-ddb799e8a068"],
-									["Prettier - Playground", "https://prettier.io/playground/"],
-									["Prettier - Integrating with Linters", "https://prettier.io/docs/en/integrating-with-linters.html"] 
-								]
-							},
-						},
-						{
-							name: "ESLint",
-							description: {
-								text: "Learn how you can use ESLint to lint your code.",
-								links: [
-									["Eslint - Getting Started", "https://eslint.org/docs/user-guide/getting-started"],
-									["Streamline Code Reviews with ESLint + Prettier", "https://medium.com/javascript-scene/streamline-code-reviews-with-eslint-prettier-6fb817a6b51d"],
-									["Prettier vs ESLint: What’s The Difference?", "https://www.futurehosting.com/blog/prettier-vs-eslint-whats-the-difference/"]
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Task Runners",
-					description: {
-						text: "Learn about task runners and how you can automate code execution.",
-						links: [
-							["The Advantages of Using Task Runners", "https://www.dbswebsite.com/blog/the-advantages-of-using-task-runners/"],
-							["Being Productive With Task Runners", "https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/"],
-						]
-					},
-					skills: [
-						{
-							name: "NPM Scripts",
-							description: {
-								text: "Learn about NPM scripts and how you can run your own.",
-								links: [
-									["CSS Tricks - Why npm Scripts?", "https://css-tricks.com/why-npm-scripts/"],
-									["Helpers and tips for npm run scripts", "https://michael-kuehnel.de/tooling/2018/03/22/helpers-and-tips-for-npm-run-scripts.html"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Transpilers",
-					description: {
-						text: "Learn what transpilers are and why we need them.",
-						links: [
-							["Scotch - Javascript Transpilers", "https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them"],
-							["What JavaScript Programmers Need to Know about Transpilers", "https://thenewstack.io/javascript-transpilers-need-know/"],
-							["Wikipedia - Source-to-source compiler", "https://en.wikipedia.org/wiki/Source-to-source_compiler"],
-						]
-					},
-					skills: [
-						{
-							name: "Babel",
-							description: {
-								text: "Learn about Babel and how you can use it to transpile your code.",
-								links: [
-									["Complete Babel 7 Guide for Beginners", "https://medium.com/@onlykiosk/complete-babel-7-guide-for-beginners-in-2019-7dd78214c464"],
-									["Babel - What is Babel?", "https://babeljs.io/docs/en/"],
-									["Babel - Usage Guide", "https://babeljs.io/docs/en/usage"],
-									["A Beginner’s Guide to Babel", "https://www.sitepoint.com/babel-beginners-guide/"],
-									["Moving to ES6 — Babel and Transpilers", "https://hackernoon.com/moving-to-es6-babel-and-transpilers-337921c025b1"],
-								]
-							}
-						},
-						{
-							name: "Typescript",
-							description: {
-								text: "Learn how to use Typescript and how it can help making your code typesafe.",
-								links: [
-									["Typescript - Documentation", "http://www.typescriptlang.org/docs/home.html"],
-									["Typescript: Why should one use i?", "https://medium.com/tech-tajawal/typescript-why-should-one-use-it-a539faa92010"],
-									["Why TypeScript is the best way to write Front-end in 2019", "https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164"]
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "CSS Pre-processors",
-					description: {
-						text: "Learn about CSS pre-processors and why we need them.",
-						links: [
-							["MDN - CSS preprocessor", "https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor"],
-							["Advantages of Using a Preprocessor", "https://medium.com/swlh/advantages-of-using-a-preprocessor-sass-in-css-eb7310179944"],
-							["Deconfusing Pre- and Post-processing", "https://medium.com/@ddprrt/deconfusing-pre-and-post-processing-d68e3bd078a3"],
-						]
-					},
-					skills: [
-						{
-							name: "SASS",
-							description: {
-								text: "Learn about SASS and how you can use it to simplify your styles.",
-								links: [
-									["SASS - Guide", "https://sass-lang.com/guide"],
-									["10 Reasons to Use a CSS Preprocessor in 2018", "https://raygun.com/blog/10-reasons-css-preprocessor/"],
-								]
-							}
-						},
-						{
-							name: "PostCSS",
-							description: {
-								text: "Learn about PostCSS and how you can use its ecosystem of plugins to extend your CSS build pipeline.",
-								links: [
-									["PostCSS", "https://postcss.org/"],
-									["What is PostCSS?", "https://www.sitepoint.com/an-introduction-to-postcss/"],
-									["Introduction to PostCSS", "https://flaviocopes.com/postcss/"],
-									["Getting started with PostCSS in 2019", "https://blog.logrocket.com/getting-started-with-postcss-in-2019-484262a4d725/"]
-								]
-							}
-						}
-					]
-				},
-				{
-					name: "Node.js",
-					description: {
-						text: "Learn how to use Node.js.",
-						links: [
-							["Node.js", "https://nodejs.org"],
-							["Introduction to Node.js", "https://nodejs.dev/"],
-							["Node.js - Guides", "https://nodejs.org/en/docs/guides/"],
-							["W3Schools - Node.js tutorial", "https://www.w3schools.com/nodejs/"]
-						]
-					}
-				}
+
 			]
 		}
 	]

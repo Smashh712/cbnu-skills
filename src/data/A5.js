@@ -4,245 +4,159 @@ export const A5 = {
 		{
 			skills: [
 				{
-					name: "거주",
+					name: "여행",
 					description: {
-						text: "어디서 살 지 결정하는 것은 중요합니다.",
+						text: "세상을 돌아다니면서 값진 경험을 해봅시다.",
 						links: [
-							["자취 vs 하숙 vs 기숙", "http://www.lgchallengers.com/campus/trend/20110915up/"],
+
 						]
 					},
 					skills: [
 						{
-							name: "자취방",
+							name: "국내 여행지",
 							description: {
-								text: "혼자서 살기 위해 좋은 방을 구하는 방법을 알아봅시다.",
+								text: "국내에도 많은 여행지가 있습니다. 대학생에게 어울리는 국내 여행지를 알아봅니다.",
 								links: [
-									["npmjs - About npm", "https://www.zigbang.com/"],
-									["npmjs - Getting started", "https://www.peterpanz.com/"],
-									["Introduction to npm and basic npm commands", "http://honjaguide.com/recommend"],
-									["An Absolute Beginner's Guide to Using npm", "https://blog.toss.im/2020/03/12/money/life/kimtoss-rentroom/"],
+									["한국 관광공사 대한민국 구석구석", "https://korean.visitkorea.or.kr/main/main.do"],
+									["한국 관광공사 블로그", "https://blog.naver.com/korea_diary?proxyReferer=https%3A%2F%2Fm.blog.naver.com%2FPostView.nhn%3FblogId%3Deventfamily%26logNo%3D140181236770%26proxyReferer%3Dhttps%3A%252F%252Fwww.google.com%252F"],
+									["경기 관광 포털", "https://www.ggtour.or.kr/"],
+
 								]
 							},
 						},
 						{
-							name: "기숙사",
+							name: "내일로",
 							description: {
-								text: "저렴한 가격으로 안전한 기숙사에서 생활하는 법을 알아봅시다.",
+								text: "기차를 타고, 전국을 순회하는 내일로에 대해 알아봅시다.",
 								links: [
-									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
-									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],
+									["내일로 소개", "http://www.letskorail.com/ebizprd/EbizPrdPassRailroIntroW_hc11901.do"],
+									["기차vs버스 비교", "https://kyobolifeblog.co.kr/2838"],
 								]
 							},
 						},
 						{
-							name: "하숙",
+							name: "국외 여행지",
 							description: {
-								text: "때로는 누군가가 관리하는 집에서 하숙하는 것도 나쁘지 않습니다. 하숙에 대해 알아봅시다.",
+								text: "여유가 있다면 다른 나라로 여행을 떠나는 것도 나쁘지 않습니다.",
 								links: [
-									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
-									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],
+									["국외 여행지 추천 사이트 모음", "https://post.naver.com/viewer/postView.nhn?volumeNo=9589146&memberNo=33285222"],
+									["에어비엔비", "http://www.airbnb.com/"],
+									["하나투어 여행정보","https://info.hanatour.com/"]
 								]
 							},
 						}
 					]
 				},
 				{
-					name: "Module Bundlers",
+					name: "맛집 탐방",
 					description: {
-						text: "Learn about module bundler and how they can help bundling your code.",
+						text: "맛있는 음식을 먹으러 다니는 것도 재미입니다.",
 						links: [
-							["dev.to - What is a module bundler?", "https://dev.to/tanhauhau/what-is-module-bundler-and-how-does-it-work-3gp2"],
-							["Freecodecamp - Let’s learn how module bundlers work", "https://www.freecodecamp.org/news/lets-learn-how-module-bundlers-work-and-then-write-one-ourselves-b2e3fe6c88ae/"],
-							["JavaScript Bundlers, a Comparison", "https://medium.com/@ajmeyghani/javascript-bundlers-a-comparison-e63f01f2a364"],
+
 						]
 					},
 					skills: [
 						{
-							name: "Rollup",
+							name: "학교 주변 맛집",
 							description: {
-								text: "Learn how you can use Rollup to bundle your code.",
+								text: "학교 근처에 있는 맛집을 찾아봅시다.",
 								links: [
-									["Rollup - Introduction", "https://rollupjs.org/guide/en/"],
-									["How to Bundle JavaScript With Rollup", "https://lengstorf.com/learn-rollup-js/"],
+									["충북대 맛집 인기검색 순위", "https://www.mangoplate.com/search/%EC%B6%A9%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90"],
+									["충북대 맛집 구글 순위", "https://www.google.com/search?sxsrf=ALeKk01vgyCEmd_KiBQoEfboGgvl2DUP-A:1598952874086&q=%EC%B6%A9%EB%B6%81%EB%8C%80+%EB%A7%9B%EC%A7%91&npsic=0&rflfq=1&rlha=0&rllag=36633001,127457528,152&tbm=lcl&ved=2ahUKEwjW7cnQ08frAhVCyIsBHYojAugQjGp6BAgMEEY&rldoc=1#rlfi=hd:;si:;mv:[[36.6364296,127.46670610000001],[36.6191786,127.4501223]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9"],
+									["충북대 맛집 다이닝 코드", "https://www.diningcode.com/list.php?query=%EC%B6%A9%EB%B6%81%EB%8C%80"]
 								]
 							},
 						},
 						{
-							name: "Webpack",
+							name: "청주 맛집",
 							description: {
-								text: "Learn how you can use Webpack to bundle your code.",
+								text: "청주시 내에 있는 맛집을 알아봅시다.",
 								links: [
-									["Webpack - Getting Started", "https://webpack.js.org/guides/getting-started/"],
-									["Webpack: A Gentle Introduction to the Module Bundler", "https://auth0.com/blog/webpack-a-gentle-introduction/"],
+									["청주 맛집 모음", "https://www.dmitory.com/star/28750575"],
+									["청주 맛집 순위", "https://www.tripadvisor.co.kr/Restaurants-g946499-Cheongju_Chungcheongbuk_do.html"],
+									["청주 맛집 모음 블로그", "https://m.blog.naver.com/azaleababy/221181069521"]
 								]
 							},
 						},
 						{
-							name: "Parcel",
+							name: "전국 맛집",
 							description: {
-								text: "Learn how you can use Parcel to bundle your code.",
+								text: "한번 쯤은 가볼 만한 전국의 맛집을 알아봅시다.",
 								links: [
-									["Parcel - Getting Started", "https://parceljs.org/getting_started.html"],
-									["Parcel, a simpler webpack", "https://flaviocopes.com/parcel/"]
+									["식신 사이트", "https://www.siksinhot.com/"],
+									["망고 플레이트", "https://www.mangoplate.com/"]
+								]
+							},
+						},
+
+					]
+				},
+				{
+					name: "취미 동아리",
+					description: {
+						text: "다양한 사람들과 취미를 공유하면서, 많은 활동을 할 수 있습니다.",
+						links: [
+
+						]
+					},
+					skills: [
+						{
+							name: "교내 동아리",
+							description: {
+								text: "학교 안에 있는 사람들과 동아리 활동을 하는 법을 알아봅시다.",
+								links: [
+									["충북대 동아리", "https://www.chungbuk.ac.kr/site/f03/sub.do?key=250"],
+
 								]
 							},
 						},
 						{
-							name: "Snowpack",
+							name: "연합 동아리",
 							description: {
-								text: "Learn how Snowpack can replace the traditional app bundler during development.",
+								text: "다른 학교 사람들을 만날 수 있는 연합 동아리에서 활동해봅시다.",
 								links: [
-									["Snowpack", "https://www.snowpack.dev/"],
-									["Snowpack - Quickstart", "https://www.snowpack.dev/#quickstart"],
-									["Github - Snowpack", "https://github.com/pikapkg/snowpack"],
-									["Pika - About", "https://www.pika.dev/about/"],
-									["A Future Without Webpack", "https://www.pika.dev/blog/pika-web-a-future-without-webpack/"],
+									["캠퍼스픽", "https://www.campuspick.com/club"],
+									["애드컬리지", "http://www.adcollege.or.kr/xe/"],
+
 								]
 							},
 						}
 					]
 				},
 				{
-					name: "Linters and formatters",
+					name: "문화생활",
 					description: {
-						text: "Learn how you can improve your code quality with linters and formatters.",
+						text: "다양한 문화생활에 대해 알아봅시다.",
 						links: [
-							["Improve Your JavaScript Code Quality With Linters", "https://www.gistia.com/javascript-linters-formatter-prettier-eslint/"],
-							["Why you should always use a Linter", "https://medium.com/dailyjs/why-you-should-always-use-a-linter-and-or-pretty-formatter-bb5471115a76"],
+
 						]
 					},
 					skills: [
 						{
-							name: "Prettier",
+							name: "공연",
 							description: {
-								text: "Learn how you can use Prettier to format your code.",
+								text: "연극이나, 라이브 공연을 보면서 문화 생활을 즐기는 법을 알아봅시다",
 								links: [
-									["Prettier - What is Prettier?", "https://prettier.io/docs/en/index.html"],
-									["Let the computer do the formatting", "https://blog.bitsrc.io/let-the-computer-do-the-formatting-ddb799e8a068"],
-									["Prettier - Playground", "https://prettier.io/playground/"],
-									["Prettier - Integrating with Linters", "https://prettier.io/docs/en/integrating-with-linters.html"] 
+									["플레이 DB", "http://www.playdb.co.kr/playdb/playdblist.asp"],
+									["문화 포털", "https://www.culture.go.kr/perform/performList.do"],
 								]
 							},
 						},
 						{
-							name: "ESLint",
+							name: "영화",
 							description: {
-								text: "Learn how you can use ESLint to lint your code.",
+								text: "영화관에 가서 영화를 볼 때, 몇 가지 팁에 대해서 알아봅시다.",
 								links: [
-									["Eslint - Getting Started", "https://eslint.org/docs/user-guide/getting-started"],
-									["Streamline Code Reviews with ESLint + Prettier", "https://medium.com/javascript-scene/streamline-code-reviews-with-eslint-prettier-6fb817a6b51d"],
-									["Prettier vs ESLint: What’s The Difference?", "https://www.futurehosting.com/blog/prettier-vs-eslint-whats-the-difference/"]
+									["익스트림 무비", "https://extmovie.com/movietalk/27000354"],
+									["영화관 알바생이 알려주는 팁", "https://post.naver.com/viewer/postView.nhn?volumeNo=22406358&memberNo=22699989"],
 								]
 							},
 						}
-					]
+					],
+
 				},
-				{
-					name: "Task Runners",
-					description: {
-						text: "Learn about task runners and how you can automate code execution.",
-						links: [
-							["The Advantages of Using Task Runners", "https://www.dbswebsite.com/blog/the-advantages-of-using-task-runners/"],
-							["Being Productive With Task Runners", "https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/"],
-						]
-					},
-					skills: [
-						{
-							name: "NPM Scripts",
-							description: {
-								text: "Learn about NPM scripts and how you can run your own.",
-								links: [
-									["CSS Tricks - Why npm Scripts?", "https://css-tricks.com/why-npm-scripts/"],
-									["Helpers and tips for npm run scripts", "https://michael-kuehnel.de/tooling/2018/03/22/helpers-and-tips-for-npm-run-scripts.html"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Transpilers",
-					description: {
-						text: "Learn what transpilers are and why we need them.",
-						links: [
-							["Scotch - Javascript Transpilers", "https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them"],
-							["What JavaScript Programmers Need to Know about Transpilers", "https://thenewstack.io/javascript-transpilers-need-know/"],
-							["Wikipedia - Source-to-source compiler", "https://en.wikipedia.org/wiki/Source-to-source_compiler"],
-						]
-					},
-					skills: [
-						{
-							name: "Babel",
-							description: {
-								text: "Learn about Babel and how you can use it to transpile your code.",
-								links: [
-									["Complete Babel 7 Guide for Beginners", "https://medium.com/@onlykiosk/complete-babel-7-guide-for-beginners-in-2019-7dd78214c464"],
-									["Babel - What is Babel?", "https://babeljs.io/docs/en/"],
-									["Babel - Usage Guide", "https://babeljs.io/docs/en/usage"],
-									["A Beginner’s Guide to Babel", "https://www.sitepoint.com/babel-beginners-guide/"],
-									["Moving to ES6 — Babel and Transpilers", "https://hackernoon.com/moving-to-es6-babel-and-transpilers-337921c025b1"],
-								]
-							}
-						},
-						{
-							name: "Typescript",
-							description: {
-								text: "Learn how to use Typescript and how it can help making your code typesafe.",
-								links: [
-									["Typescript - Documentation", "http://www.typescriptlang.org/docs/home.html"],
-									["Typescript: Why should one use i?", "https://medium.com/tech-tajawal/typescript-why-should-one-use-it-a539faa92010"],
-									["Why TypeScript is the best way to write Front-end in 2019", "https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164"]
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "CSS Pre-processors",
-					description: {
-						text: "Learn about CSS pre-processors and why we need them.",
-						links: [
-							["MDN - CSS preprocessor", "https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor"],
-							["Advantages of Using a Preprocessor", "https://medium.com/swlh/advantages-of-using-a-preprocessor-sass-in-css-eb7310179944"],
-							["Deconfusing Pre- and Post-processing", "https://medium.com/@ddprrt/deconfusing-pre-and-post-processing-d68e3bd078a3"],
-						]
-					},
-					skills: [
-						{
-							name: "SASS",
-							description: {
-								text: "Learn about SASS and how you can use it to simplify your styles.",
-								links: [
-									["SASS - Guide", "https://sass-lang.com/guide"],
-									["10 Reasons to Use a CSS Preprocessor in 2018", "https://raygun.com/blog/10-reasons-css-preprocessor/"],
-								]
-							}
-						},
-						{
-							name: "PostCSS",
-							description: {
-								text: "Learn about PostCSS and how you can use its ecosystem of plugins to extend your CSS build pipeline.",
-								links: [
-									["PostCSS", "https://postcss.org/"],
-									["What is PostCSS?", "https://www.sitepoint.com/an-introduction-to-postcss/"],
-									["Introduction to PostCSS", "https://flaviocopes.com/postcss/"],
-									["Getting started with PostCSS in 2019", "https://blog.logrocket.com/getting-started-with-postcss-in-2019-484262a4d725/"]
-								]
-							}
-						}
-					]
-				},
-				{
-					name: "Node.js",
-					description: {
-						text: "Learn how to use Node.js.",
-						links: [
-							["Node.js", "https://nodejs.org"],
-							["Introduction to Node.js", "https://nodejs.dev/"],
-							["Node.js - Guides", "https://nodejs.org/en/docs/guides/"],
-							["W3Schools - Node.js tutorial", "https://www.w3schools.com/nodejs/"]
-						]
-					}
-				}
+
+
 			]
 		}
 	]
