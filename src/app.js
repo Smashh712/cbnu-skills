@@ -690,8 +690,8 @@ export class App extends LitElement {
 			</div>
 			<header id="header">
 				<div>
-					<a href="https://github.com/andreasbm/web-skills" target="_blank" rel="noopener" aria-label="Open Github" title="Open Github">
-						<ws-icon hoverable .template="${githubIconTemplate}"></ws-icon>
+					<a href="https://www.chungbuk.ac.kr/site/www/main.do" target="_blank" rel="noopener" aria-label="Open CBNU" title="Open CBNU">
+						<img src="assets/title/cbnu.png" height=70px width=230px>
 					</a>
 					${user != null ? html`
 						<div id="avatar">
@@ -699,6 +699,7 @@ export class App extends LitElement {
 							<span class="text">${user.displayName || user.email}</span>
 						</div>
 					` : undefined}
+					<b> 비공식 가이드북 </b>
 				</div>
 				<div>
 					<div id="toggle-compact" title="${this.compact ? `Disable` : `Enable`} compact layout">
@@ -710,10 +711,10 @@ export class App extends LitElement {
 					<ws-button aria-label="Share website" @click="${this.share}" title="Open share menu">
 						<ws-icon .template="${shareIconTemplate}"></ws-icon>
 					</ws-button>
-					<a aria-label="Open author" href="https://andreasbm.github.io" target="_blank" rel="noopener" title="Say hi">
+					<a aria-label="Open author" href="https://github.com/Smashh712/cbnu-skills" target="_blank" rel="noopener" title="Say hi">
 						<ws-icon hoverable .template="${andreasIconTemplate}" ></ws-icon>
 					</a>
-					<a id="coffee" aria-label="Buy coffee" href="https://www.buymeacoffee.com/AndreasMehlsen" rel="noopener" title="Support me <3" target="_blank">
+					<a id="coffee" aria-label="Buy coffee" href="src/data/support.txt" rel="noopener" title="Support me <3" target="_blank">
 						<svg id="steam" viewBox="0 0 250 327" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" stroke-width="41"><path d="M119.563 265.584c-27-20.344-43.822-41.277-50.465-62.8-6.643-21.522-7.9-45.48-3.771-71.875M170.152 189.86c12.91-24.089 19.139-47.393 18.685-69.913-.453-22.52-5.297-42.502-14.53-59.947"/></g></svg>
 						<ws-icon hoverable .template="${coffeeIconTemplate}"></ws-icon>
 					</a>
@@ -732,13 +733,10 @@ export class App extends LitElement {
 					` : html`
 						<ws-button @click="${signIn}">🔒 Sign in with Google</ws-button>
 					`}
-					<a href="https://github.com/andreasbm/web-skills/stargazers" target="_blank" aria-label="Become a stargazer" rel="noopener">
+					<a href="https://github.com/Smashh712/cbnu-skills" target="_blank" aria-label="Become a stargazer" rel="noopener">
 						<ws-button>⭐️ Become a stargazer</ws-button>
 					</a>
-					<a href="https://twitter.com/AndreasMehlsen" target="_blank" aria-label="Open Twitter" rel="noopener">
-						<ws-button>🐦 Say hi on Twitter</ws-button>
-					</a>
-					<a href="https://www.buymeacoffee.com/AndreasMehlsen" target="_blank" aria-label="Buy coffee" rel="noopener">
+					<a href="src/data/support.txt" target="_blank" aria-label="Buy coffee" rel="noopener">
 						<ws-button>☕️ Support me with a cup of coffee</ws-button>
 					</a>
 				</div>
