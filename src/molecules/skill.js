@@ -91,7 +91,7 @@ export class Skill extends LitElement {
 					font-family: 'Poor Story', cursive;
 					margin: 0;
 
-					font-size : 22px;
+					font-size : 18px;
 					-webkit-hyphens: auto;
 					-moz-hyphens: auto;
 					-ms-hyphens: auto;
