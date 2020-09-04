@@ -32,15 +32,7 @@ export const A6 = {
 								]
 							},
 						},
-						{
-							name: "교재구매",
-							description: {
-								text: "",
-								links: [
 
-								]
-							},
-						}
 					]
 				},
 				{

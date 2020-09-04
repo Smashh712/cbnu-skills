@@ -4,7 +4,7 @@ export const A5 = {
 		{
 			skills: [
 				{
-					name: "여행 ",
+					name: "여행",
 					description: {
 						text: "세상을 돌아다니면서 값진 경험을 해봅시다.",
 						links: [

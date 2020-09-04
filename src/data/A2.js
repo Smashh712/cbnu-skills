@@ -77,7 +77,7 @@ export const A2 = {
 							},
 						},
 						{
-							name: "조별과제 ",
+							name: "조별과제",
 							description: {
 								text: "다양한 사람들과 만나서 팀을 만들고, 공통된 목표를 수행하며 프로젝트를 진행하는 법을 익혀봅시다.",
 								links: [
@@ -203,7 +203,7 @@ export const A2 = {
 					},
 					skills: [
 						{
-							name: "학생회 ",
+							name: "학생회",
 							description: {
 								text: "학과의 운영을 위한 학과 학생회가 되거나, 혹은 단과대학 학생회, 그리고 총학생회 등에 참여하여 학생들을 위해 일해봅시다.",
 								links: [
