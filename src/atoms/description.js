@@ -56,6 +56,7 @@ export class Description extends LitElement {
     			    left: 0;
 					transform: translate(-7%, -5px);
 					cursor: default;
+					opacity: 0.9;
 				}
 				
 				:host([directionX="left"]) {

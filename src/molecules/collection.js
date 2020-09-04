@@ -32,8 +32,9 @@ export class Collection extends LitElement {
 					display: inline-block;
 					padding: var(--spacing-xxxl);
 					border-radius: var(--border-radius-l);
-					background: var(--foreground);
+					/*background: var(--foreground);*/
 					color: var(--background);
+					background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4));
 				}
 
 				#title {
